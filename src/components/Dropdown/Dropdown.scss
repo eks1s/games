@@ -1,0 +1,29 @@
+.dropdownWrapper {
+    position: relative;
+    cursor: pointer;
+    height: 40px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ba8e47;
+    background-color: #1c1c1c;
+    color: white;
+
+    .dropdownMenu {
+        position: absolute;
+        max-width: 150px;
+        z-index: 10;
+        background-color: red;
+        margin-top: 15px;
+        left: 0;
+
+        .dropdownOption {
+            display: flex;
+            cursor: pointer;
+            height: 40px;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ba8e47;
+            background-color: #1c1c1c;
+        }
+    }
+}

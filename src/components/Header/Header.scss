@@ -1,0 +1,29 @@
+.headerWrapper {
+    display: flex;
+    margin-bottom: 10px;
+
+    .headerFilter {
+        display: flex;
+        align-items: center;
+        width: 65%;
+        margin-right: 10px;
+
+        .headerSelectName {
+            margin-right: 20px;
+        }
+
+        .headerSelect {
+            height: 40px;
+            padding: 10px 40px 10px 20px;
+            box-sizing: border-box;
+            border: 1px solid #ba8e47;
+            background-color: #1c1c1c;
+            color: white;
+        }
+    }
+
+    .headerSearch {
+        max-width: 500px;
+        width: 500px;
+    }
+}

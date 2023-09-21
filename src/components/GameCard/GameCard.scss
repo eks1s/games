@@ -1,0 +1,25 @@
+.image-container {
+    overflow: hidden;
+    position: relative;
+    max-width: 200px;
+}
+.image {
+    max-width: 200px;
+    max-height: 200px;
+    opacity: 0;
+
+    &.thumb {
+        opacity: 1;
+        filter: blur(10px);
+        transition: opacity 1s ease-out;
+        position: absolute;
+        &.isLoaded {
+            opacity: 0;
+        }
+    }
+
+    &.isLoaded {
+        transition: opacity 1s ease-out;
+        opacity: 1;
+    }
+}
